@@ -1,0 +1,32 @@
+{
+  "name": "semiorbit/serial",
+  "description": "Generate a Serial Number of alphanumeric 16 random chars in PHP.",
+  "type": "library",
+  "keywords": [
+    "serial",
+    "16 chars alphanumeric",
+    "base36",
+    "serial number"
+  ],
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Ibrahim Khalil Khalbous",
+      "email": "ibrahim@semiorbit.com"
+    },
+    {
+      "name": "Semiorbit Solution Co. LLC",
+      "email": "framework@semiorbit.com",
+      "homepage": "https://semiorbit.com"
+    }
+  ],
+  "require": {
+    "php": ">=7.4.0"
+  },
+  "autoload": {
+    "psr-4": {
+      "SemiorbitSerial\\": "src/"
+    }
+  },
+  "minimum-stability": "dev"
+}
