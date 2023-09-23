@@ -41,7 +41,7 @@ echo SerialNumber::Generate('-');
 Returns a formatted Serial Number string width dashes (or selected separator)
 
 ```php 
-Guid::Format(string $guid, bool $enclose = true, string $separator = '-'): string
+SerialNumber::Format(string $serial, string $separator = '-'): string
 ```
 
 #### Params
