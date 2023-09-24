@@ -47,11 +47,11 @@ class SerialNumber
 
             substr($serial, 0, 4) . $separator .
 
+            substr($serial, 4, 4) . $separator .
+
             substr($serial, 8, 4) . $separator .
 
-            substr($serial, 12, 4) . $separator .
-
-            substr($serial, 16, 4)  . $separator;
+            substr($serial, 12, 4)  . $separator;
 
     }
 
