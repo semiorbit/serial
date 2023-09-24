@@ -51,7 +51,7 @@ class SerialNumber
 
             substr($serial, 8, 4) . $separator .
 
-            substr($serial, 12, 4)  . $separator;
+            substr($serial, 12, 4);
 
     }
 
